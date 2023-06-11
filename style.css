@@ -5,7 +5,7 @@
 
 body {
     font-family: 'merriweather', 'serif';
-    background-color: #f9fafc;
+    background-color: #ebf2ff;
 }
 
 .navbar {
@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-.nav_buttons {
+.button_primary {
     background-image: linear-gradient(
         to right,
         #ff512f 0%,
@@ -42,6 +42,25 @@ body {
     cursor: pointer;
 }
 
+.container {
+    padding: 20px;
+}
+
+.hero_image_container {
+    width: 100%;
+}
+
+.hero_image {
+    width: 100%;
+}
+
+.hero_text {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 20px 0;
+    color: 1d3557;
+}
+
 @media (min-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -52,7 +71,7 @@ body {
     .nav_brand {
         width: 150px;
     }
-    .nav_buttons {
+    .button_primary {
         padding: 20px;
         font-size: 20px;
         font-weight: 600px;
